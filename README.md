@@ -1,8 +1,8 @@
-19TD608 - Prompt Engineering
-Name : Jabez S
-Register Number : 21223040070
+# 19TD608 - Prompt Engineering
+# Name : Jabez S
+# Register Number : 21223040070
 
-Ex-1 Comprehensive Report on the Fundamentals of Generative AI and Large Language Models
+# Ex-1 Comprehensive Report on the Fundamentals of Generative AI and Large Language Models
 
  1.Explain the foundational concepts of Generative AI.
 Generative AI refers to AI technologies that can create new content, ideas, or data that are coherent and plausible, often resembling human-generated outputs. It has a plethora of practical applications in different domains such as computer vision, natural language processing, and music generation.
