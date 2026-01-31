@@ -68,19 +68,12 @@ Although these models contributed significantly, they had limitations:
 These challenges motivated the development of more efficient architectures—leading to the emergence of transformers.
 
 6. Transformer Architecture: The Backbone of Generative AI
- 
 
+ ![Picture 1](https://github.com/user-attachments/assets/849f3259-ca7e-4c3e-a095-8df9331c237b)
 
+<img width="485" height="446" alt="Picture 1" src="https://github.com/user-attachments/assets/048b4f9f-9e4c-436c-970d-233617a4caef" />
 
-
-
-
-
-
-
-
-
-
+![Picture 2](https://github.com/user-attachments/assets/f2711a6a-1141-4b7b-8c04-4619bbd8747c)
 
 
 The tansformer architecture was introduced to overcome the inefficiencies of sequential models. It is now the foundation of most state-of-the-art generative systems, especially Large Language Models (LLMs).
@@ -217,11 +210,13 @@ It also involves exploring emerging variants such as:
 
 ## 3. Generative AI architecture  and its applications.
 Generative models are a dynamic class of artificial intelligence (AI) systems designed to learn patterns from large datasets and synthesize new content ranging from text and images to music and code that resembles the data they learned from. Their underlying architectures are responsible for this remarkable creativity and understanding these architectures is key to leveraging and advancing generative AI technologies.
+
 Layered Architecture of Generative Models
 The architecture of a generative model can be understood as a modular stack, where each layer performs a specific role, collectively supporting the learning and generation process.
 
- 
+<img width="452" height="226" alt="Picture 4" src="https://github.com/user-attachments/assets/7d14d418-5c91-427e-8f46-865131765d57" />
 
+ 
 ### 1. Data Processing Layer
 •	Purpose: Collects, cleans and transforms data to ensure optimal model performance.
 •	Key Functions: Normalization, augmentation, shuffling, data splitting for training/testing.
@@ -273,7 +268,8 @@ Some sources identify additional layers for orchestration (LLMOps for large-lang
 
 ### Key Generative Model Architectures
 1. Generative Adversarial Networks (GANs)
- 
+
+ <img width="452" height="96" alt="Picture 5" src="https://github.com/user-attachments/assets/ff6f33ff-85eb-457c-8cf2-389d0f3a8cf6" />
 
 ### Generative Adversarial Networks
 
@@ -286,13 +282,16 @@ Training Process:
 •	Adversarial Training: Generator and discriminator are trained in opposition generator tries to fool the discriminator; discriminator tries to spot fakes.
 •	Loss Functions: Binary cross-entropy or related adversarial losses.
 •	Outcome: Gradual progress toward the generator creating highly realistic outputs, as measured by the discriminator’s performance.
+
 2. Variational Autoencoders (VAEs)
- Variational AutoEncoders
+
+<img width="452" height="226" alt="Picture 6" src="https://github.com/user-attachments/assets/8c08395c-21f6-4227-8e9f-dd236e79124f" />
 
 Structure and Components(Two core networks)
 •	Encoder: Maps input data to a parameterized probability distribution in latent space.
 •	Decoder: Reconstructs data from sampled points in the latent space.
 Latent Space: Regularized to follow a standard Gaussian, ensuring continuous, structured and interpretable representations.
+
 Training Process:
 •	Reconstruction Loss: Encourages accurate data reconstruction (often mean squared error or binary cross-entropy).
 •	KL Divergence Loss: Penalizes deviation from the standard Gaussian in latent space facilitates sampling of new plausible data.
@@ -308,46 +307,24 @@ Structure and Components of Transformers are
 •	Variants: Decoder-only (as in GPT), encoder-only (as in BERT) or full encoder-decoder (as in T5).
 •	Positional Encoding: Transformers do not inherently process sequences in order, so positional encodings inject information about token order into embeddings.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Key Mechanisms
 •	Self-Attention: Mechanism to weight input elements by their context captures dependencies at every range.
 •	Feedforward Layers: Enhance depth and non-linearity.
 •	Residual Connections & Layer Normalization: Stabilize training and accelerate convergence.
 Training Process
 •	Pre-training: Self-supervised tasks (next-token prediction, masked token recovery).Scalability: Easily parallelizable, enabling massive model sizes (e.g., GPT-4, DALL-E, BERT).
-5.	Generative AI impact of scaling in LLMs.
+
+## 5.	Generative AI impact of scaling in LLMs.
 
 •	Traditional AI Models: Traditional AI models are often limited by their reliance on structured data and predefined rules. Scaling these models to handle diverse or complex tasks requires significant manual effort, including feature engineering and retraining. For example, a traditional AI model trained to analyze financial data might struggle to adapt to healthcare data without extensive retraining.
+
+<img width="254" height="349" alt="Picture 7" src="https://github.com/user-attachments/assets/a828cf09-a015-4ffe-a253-1af217e99c2b" />
+
 •	Large Language Models: LLMs are inherently scalable due to their ability to process vast amounts of unstructured data and adapt to new tasks with minimal fine-tuning. Their parameter-rich architectures enable them to generalize across domains, making them versatile tools for a wide range of applications. For instance, an LLM trained on general language data can be fine-tuned to generate legal documents, medical reports, or educational content without requiring a complete overhaul of the model. 
+
 •	The Significance of On-Premises Large Language Models (LLMs) in Generative AI
 
- 
+![Picture 7](https://github.com/user-attachments/assets/d7c39ec9-875f-49a7-a233-49d1a0e60cae)
 
 
 •	In the age of AI-led digital transformation, organizations are increasingly leveraging advanced technologies to streamline their operations, and one such innovation taking the spotlight is on-premises Large Language Models in generative AI. These models usher in a new era of advanced language capabilities, empowering organizations to automate an extensive array of tasks seamlessly. 
@@ -392,21 +369,12 @@ Training Process
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## 5.Explain about LLM and how it is build.
 Large Language Models (LLMs) are advanced AI systems built on deep neural networks designed to process, understand and generate human-like text. By using massive datasets and billions of parameters, LLMs have transformed the way humans interact with technology. It learns patterns, grammar and context from text and can answer questions, write content, translate languages and many more. Mordern LLMs include ChatGPT (OpenAI), Google Gemini, Anthropic Claude, etc
- LLM
+
+<img width="452" height="226" alt="Picture 8" src="https://github.com/user-attachments/assets/69df61d4-7884-4eda-8ecc-19252c2d6767" />
+
+### LLM
 To explore the technical concepts behind LLMs, understand how they work, what they can do and how to build projects using them, refer to our Large Language Model (LLM) Tutorial.
 Working of LLM
 LLMs are primarily based on the Transformer architecture which enables them to learn long-range dependencies and contextual meaning in text. At a high level, they work through:
@@ -417,20 +385,7 @@ Working
 •	Feed-Forward Layers: Capturing complex patterns.
 •	Decoding: Generating responses step-by-step.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="278" height="139" alt="Picture 9" src="https://github.com/user-attachments/assets/1d7cd55c-1009-46de-a47f-6e7789a81377" />
 
 Multi-Head Attention: Parallel reasoning over multiple relationships. 
 The architecture of LLMs consist of multiple stacked layers that process text in parallel. Core components include:
@@ -495,43 +450,3 @@ APIs
 Web Scraping
 •	Scrape websites to extract text using Python libraries like BeautifulSoup.
 •	Use it for data that is not available through APIs but is publicly accessible.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="451" height="664" alt="image" src="https://github.com/user-attachments/assets/e949b888-f2df-4440-a7a4-4379efa2edf9" />
