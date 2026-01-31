@@ -4,7 +4,8 @@
 
 # Ex-1 Comprehensive Report on the Fundamentals of Generative AI and Large Language Models
 
- 1.Explain the foundational concepts of Generative AI.
+ ## 1.Explain the foundational concepts of Generative AI.
+ 
 Generative AI refers to AI technologies that can create new content, ideas, or data that are coherent and plausible, often resembling human-generated outputs. It has a plethora of practical applications in different domains such as computer vision, natural language processing, and music generation.
 
 These models serve as the bedrock for various applications, acting as versatile tools for content creation across different domains. Now, let’s check out the types of generative AI models, underlining that they are not confined to isolated categories but synergize for more advanced applications.
@@ -192,22 +193,6 @@ It also involves exploring emerging variants such as:
 •	Multimodal transformers
 •	Vision-language architectures
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 3. Generative AI architecture  and its applications.
 Generative models are a dynamic class of artificial intelligence (AI) systems designed to learn patterns from large datasets and synthesize new content ranging from text and images to music and code that resembles the data they learned from. Their underlying architectures are responsible for this remarkable creativity and understanding these architectures is key to leveraging and advancing generative AI technologies.
 
@@ -297,9 +282,6 @@ Training Process:
 •	KL Divergence Loss: Penalizes deviation from the standard Gaussian in latent space facilitates sampling of new plausible data.
 •	Result: The model learns compressed, meaningful latent representations and can generate new samples by decoding random draws from the latent distribution.
 
-
-
-
 ### 3. Transformers
 Transformers
 Structure and Components of Transformers are
@@ -314,7 +296,7 @@ Structure and Components of Transformers are
 Training Process
 •	Pre-training: Self-supervised tasks (next-token prediction, masked token recovery).Scalability: Easily parallelizable, enabling massive model sizes (e.g., GPT-4, DALL-E, BERT).
 
-## 5.	Generative AI impact of scaling in LLMs.
+## 4.	Generative AI impact of scaling in LLMs.
 
 •	Traditional AI Models: Traditional AI models are often limited by their reliance on structured data and predefined rules. Scaling these models to handle diverse or complex tasks requires significant manual effort, including feature engineering and retraining. For example, a traditional AI model trained to analyze financial data might struggle to adapt to healthcare data without extensive retraining.
 
